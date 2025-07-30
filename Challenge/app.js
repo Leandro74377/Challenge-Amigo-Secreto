@@ -51,7 +51,4 @@ function sortearAmigo() {
   // Mostrar el resultado en el elemento con id "resultadoSorteo"
   const resultado = document.getElementById("resultado");
   resultado.innerHTML = `Amigo sorteado: <strong>${amigoSorteado}</strong>`;
-  
-  const lista = document.getElementById("listaAmigos");
-  lista.style.display = "none";
 }
